@@ -16,7 +16,7 @@ $(document).ready(function(){
         quote = response.quoteText;
         author = response.quoteAuthor;
         if (author){
-          $("#author").text(+ author)
+          $("#author").text("by "+ author)
         }else{
           $("#author").text("anonymous")
         };
